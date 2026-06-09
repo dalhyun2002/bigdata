@@ -1,0 +1,31 @@
+﻿__pycache__/
+*.py[cod]
+.DS_Store
+
+# Keep only curated checkpoints in this repo. Do not add full experiment weights.
+*.pt
+*.ckpt
+results/**/weights/*.pth
+!results/original_baseline/weights/best_efficientnetb0_pretrained_seed4.pth
+!results/efficientnet_grid/weights/best_grid_efficientnetb0_se_mlp512_full_pretrained_seed2.pth
+!results/scratch_grid/weights/best_scratch_small_maxpool_silu_pool4mlp_scratch_seed2.pth
+
+# Do not add full datasets or bulk generated images.
+MAR20/JPEGImages/
+MAR20/Annotations/
+MAR20/Classification_Dataset/
+
+# Exclude generated or dataset images by default; keep curated samples only.
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tif
+*.tiff
+*.webp
+!**/sample/
+!**/sample/**
+
+archive/
+*_smoke_tmp/

@@ -1,0 +1,4 @@
+stage,model_name,attention,head,activation,train_scope,seeds
+stage3_ablation,efficientnetb0_mlp512_silu_full,none,mlp512,silu,full,1 2 3
+stage3_ablation,efficientnetb0_eca_full,eca,linear,relu,full,1 2 3
+stage3_ablation,efficientnetb0_eca_mlp512_silu_full,eca,mlp512,silu,full,1 2 3

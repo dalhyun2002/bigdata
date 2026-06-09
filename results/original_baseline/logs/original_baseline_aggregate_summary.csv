@@ -1,0 +1,7 @@
+﻿"model_name","n_seeds","seeds","best_val_acc_mean","best_val_acc_std","best_val_loss_mean","best_val_loss_std","best_seed","best_seed_val_acc","best_seed_checkpoint"
+"resnet18","5","1 2 3 4 5","0.98292369","0.00125401","0.07766463","0.00560334","5","0.98504610","best_resnet18_pretrained_seed5.pth"
+"resnet34","5","1 2 3 4 5","0.98198992","0.00560772","0.08224483","0.01349429","2","0.98677582","best_resnet34_pretrained_seed2.pth"
+"resnet50","5","1 2 3 4 5","0.97078085","0.00851408","0.15413758","0.03820945","2","0.97858942","best_resnet50_pretrained_seed2.pth"
+"efficientnetb0","5","1 2 3 4 5","0.98312343","0.00289946","0.07858553","0.00486446","4","0.98677582","best_efficientnetb0_pretrained_seed4.pth"
+"mobilenetv2","5","1 2 3 4 5","0.97871536","0.00370949","0.08937372","0.01055350","5","0.98299748","best_mobilenetv2_pretrained_seed5.pth"
+"mobilenetv3","5","1 2 3 4 5","0.97808564","0.00700381","0.10977475","0.01397509","3","0.98614610","best_mobilenetv3_pretrained_seed3.pth"

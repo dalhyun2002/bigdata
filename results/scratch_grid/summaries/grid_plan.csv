@@ -1,0 +1,2 @@
+stage,model_name,size,downsampling,activation,head,seeds
+grid,scratch_small_maxpool_relu_gap,small,maxpool,relu,gap,1

@@ -1,0 +1,4 @@
+stage,model_name,attention,head,activation,train_scope,seeds
+stage4_scope,efficientnetb0_eca_added_only,eca,linear,relu,added_only,1 2 3
+stage4_scope,efficientnetb0_eca_last2,eca,linear,relu,last2,1 2 3
+stage4_scope,efficientnetb0_eca_full,eca,linear,relu,full,1 2 3

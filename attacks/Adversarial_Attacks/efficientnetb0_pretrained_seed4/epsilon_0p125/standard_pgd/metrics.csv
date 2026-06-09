@@ -1,0 +1,2 @@
+method,epsilon_px,n_test,clean_accuracy,adv_accuracy,accuracy_drop,attack_success_rate_clean_correct,changed_prediction_rate,adv_precision_macro,adv_recall_macro,adv_f1_macro,mean_clean_conf,mean_adv_conf,mean_linf_px,mean_l2,mean_l0_area,mean_layercam_mask_area,mean_mae,mean_mse,mean_psnr,mean_ssim,pgd_steps,alpha_px,random_start,layercam_threshold
+standard_pgd,0.125,14471,0.874093,0.494783,0.379310,0.433947,0.387188,0.540435,0.539978,0.513216,0.945803,0.915576,0.125002,0.353001,0.954767,1.000000,0.00043068,0.00000021,66.845802,0.999998,10,0.03125,1,

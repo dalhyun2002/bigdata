@@ -1,0 +1,2 @@
+selection_source,model_name,size,downsampling,activation,head
+grid,scratch_small_maxpool_silu_pool4mlp,small,maxpool,silu,pool4mlp

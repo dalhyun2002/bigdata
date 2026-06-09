@@ -1,0 +1,9 @@
+stage,model_name,attention,head,activation,train_scope,seeds
+stage1_attention,efficientnetb0_se_mlp512_full,se,mlp512,relu,full,1
+stage1_attention,efficientnetb0_eca_mlp512_full,eca,mlp512,relu,full,1
+stage2_ablation,efficientnetb0_mlp512_full,none,mlp512,relu,full,1
+stage2_ablation,efficientnetb0_eca_full,eca,linear,relu,full,1
+stage2_5_activation,efficientnetb0_eca_mlp512_relu_full,eca,mlp512,relu,full,1
+stage2_5_activation,efficientnetb0_eca_mlp512_silu_full,eca,mlp512,silu,full,1
+stage3_scope,efficientnetb0_eca_mlp512_added_only,eca,mlp512,relu,added_only,1
+stage3_scope,efficientnetb0_eca_mlp512_last2,eca,mlp512,relu,last2,1

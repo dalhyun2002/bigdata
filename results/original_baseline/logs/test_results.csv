@@ -1,0 +1,2 @@
+﻿"timestamp","model_name","use_pretrained","seed","checkpoint","test_loss","test_acc","num_samples"
+"2026-05-25T02:22:16","resnet18","True","5","C:\Users\최병호\Desktop\과제\MAR20_Aircraft_Project\results\original_baseline\weights\best_resnet18_pretrained_seed5.pth","0.54781292","0.85370741","14471"

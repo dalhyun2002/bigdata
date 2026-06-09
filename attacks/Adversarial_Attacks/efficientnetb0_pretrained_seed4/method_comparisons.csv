@@ -1,0 +1,5 @@
+epsilon_px,comparison,layercam_attack_success,standard_attack_success,attack_success_retention,layercam_area,standard_area,area_reduction,layercam_psnr,standard_psnr,psnr_gain
+0.125,layercam_masked_vs_standard,0.083485,0.433947,0.192385,0.071688,1.000000,0.928312,78.022850,66.845802,11.177048
+0.25,layercam_masked_vs_standard,0.208949,0.858171,0.243482,0.071688,1.000000,0.928312,72.148315,61.081814,11.066501
+0.5,layercam_masked_vs_standard,0.489525,0.998261,0.490378,0.071688,1.000000,0.928312,66.409081,55.510418,10.898663
+1,layercam_masked_vs_standard,0.839750,1.000000,0.839750,0.071688,1.000000,0.928312,60.920177,50.406845,10.513332

@@ -1,0 +1,17 @@
+model,run_dir,method,epsilon_px,n_test,clean_accuracy,adv_accuracy,accuracy_drop,attack_success_rate_clean_correct,mean_layercam_mask_area,mean_linf_px,mean_psnr,mean_ssim,pgd_steps,alpha_px,random_start,layercam_threshold
+baseline_efficientnetb0,efficientnetb0_pretrained_seed4,standard_pgd,0.125,14471,0.874093,0.494783,0.379310,0.433947,1.000000,0.125002,66.845802,0.999998,10,0.03125,1,
+baseline_efficientnetb0,efficientnetb0_pretrained_seed4,layercam_masked_pgd,0.125,14471,0.874093,0.801119,0.072974,0.083485,0.071688,0.125001,78.022850,1.000000,10,0.03125,1,0.500
+baseline_efficientnetb0,efficientnetb0_pretrained_seed4,standard_pgd,0.25,14471,0.874093,0.123972,0.750121,0.858171,1.000000,0.250004,61.081814,0.999991,10,0.0625,1,
+baseline_efficientnetb0,efficientnetb0_pretrained_seed4,layercam_masked_pgd,0.25,14471,0.874093,0.691452,0.182641,0.208949,0.071688,0.250004,72.148315,0.999999,10,0.0625,1,0.500
+baseline_efficientnetb0,efficientnetb0_pretrained_seed4,standard_pgd,0.5,14471,0.874093,0.001520,0.872573,0.998261,1.000000,0.500008,55.510418,0.999966,10,0.125,1,
+baseline_efficientnetb0,efficientnetb0_pretrained_seed4,layercam_masked_pgd,0.5,14471,0.874093,0.446203,0.427890,0.489525,0.071688,0.500007,66.409081,0.999997,10,0.125,1,0.500
+baseline_efficientnetb0,efficientnetb0_pretrained_seed4,standard_pgd,1,14471,0.874093,0.000000,0.874093,1.000000,1.000000,1.000007,50.406845,0.999893,10,0.25,1,
+baseline_efficientnetb0,efficientnetb0_pretrained_seed4,layercam_masked_pgd,1,14471,0.874093,0.140073,0.734020,0.839750,0.071688,1.000007,60.920177,0.999990,10,0.25,1,0.500
+proposed_efficientnetb0_se_mlp512_full,proposed_efficientnetb0_se_mlp512_full_seed2,standard_pgd,0.125,14471,0.826964,0.360514,0.466450,0.564051,1.000000,0.125002,66.934456,0.999998,10,0.03125,1,
+proposed_efficientnetb0_se_mlp512_full,proposed_efficientnetb0_se_mlp512_full_seed2,layercam_masked_pgd,0.125,14471,0.826964,0.743418,0.083546,0.101028,0.059198,0.125001,78.998062,1.000000,10,0.03125,1,0.500
+proposed_efficientnetb0_se_mlp512_full,proposed_efficientnetb0_se_mlp512_full_seed2,standard_pgd,0.25,14471,0.826964,0.050031,0.776933,0.939500,1.000000,0.250004,61.184776,0.999991,10,0.0625,1,
+proposed_efficientnetb0_se_mlp512_full,proposed_efficientnetb0_se_mlp512_full_seed2,layercam_masked_pgd,0.25,14471,0.826964,0.633405,0.193560,0.234060,0.059198,0.250004,73.150414,0.999999,10,0.0625,1,0.500
+proposed_efficientnetb0_se_mlp512_full,proposed_efficientnetb0_se_mlp512_full_seed2,standard_pgd,0.5,14471,0.826964,0.000138,0.826826,0.999833,1.000000,0.500008,55.619556,0.999967,10,0.125,1,
+proposed_efficientnetb0_se_mlp512_full,proposed_efficientnetb0_se_mlp512_full_seed2,layercam_masked_pgd,0.5,14471,0.826964,0.384977,0.441987,0.534470,0.059198,0.500007,67.456551,0.999998,10,0.125,1,0.500
+proposed_efficientnetb0_se_mlp512_full,proposed_efficientnetb0_se_mlp512_full_seed2,standard_pgd,1,14471,0.826964,0.000000,0.826964,1.000000,1.000000,1.000008,50.573921,0.999897,10,0.25,1,
+proposed_efficientnetb0_se_mlp512_full,proposed_efficientnetb0_se_mlp512_full_seed2,layercam_masked_pgd,1,14471,0.826964,0.102135,0.724829,0.876494,0.059198,1.000007,62.011055,0.999992,10,0.25,1,0.500

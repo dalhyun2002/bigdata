@@ -1,0 +1,4 @@
+stage,model_name,attention,head,activation,train_scope,n_seeds,seeds,best_val_acc_mean,best_val_acc_std,best_val_loss_mean,best_val_loss_std,train_val_gap_mean,train_val_gap_std,best_epoch_mean,best_epoch_std,best_seed,best_seed_val_acc,best_seed_checkpoint,trainable_params
+stage3_ablation,efficientnetb0_eca_full,eca,linear,relu,full,3,1 2 3,0.98488665,0.00109071,0.07125598,0.01017026,0.00954188,0.00552286,18.0000,9.5394,1,0.98551637,best_efficientnetb0_eca_full_pretrained_seed1.pth,4033171
+stage3_ablation,efficientnetb0_eca_mlp512_silu_full,eca,mlp512,silu,full,3,1 2 3,0.98257767,0.00202428,0.07503821,0.00200134,0.01280597,0.00477255,18.3333,6.5064,2,0.98488665,best_efficientnetb0_eca_mlp512_silu_full_pretrained_seed2.pth,4673683
+stage3_ablation,efficientnetb0_mlp512_silu_full,none,mlp512,silu,full,3,1 2 3,0.97732997,0.00825874,0.09326852,0.00969043,0.01439241,0.00309770,14.6667,7.6376,2,0.98488665,best_efficientnetb0_mlp512_silu_full_pretrained_seed2.pth,4673680
