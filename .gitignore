@@ -12,7 +12,6 @@ results/**/weights/*.pth
 
 # Do not add full datasets or bulk generated images.
 MAR20/JPEGImages/
-MAR20/Annotations/
 MAR20/Classification_Dataset/
 
 # Exclude generated or dataset images by default; keep curated samples only.
